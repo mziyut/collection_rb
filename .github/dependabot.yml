@@ -1,0 +1,11 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "21:00"
+    timezone: Japan
+  open-pull-requests-limit: 10
+  reviewers:
+  - mziyut
